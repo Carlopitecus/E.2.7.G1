@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+
+        <title>Estadistcas</title>
+        <link rel="stylesheet" href="../style.css">
+        
+        <!--boostrap-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+            crossorigin="anonymous">
+            <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+
+            <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    
+            <link rel="stylesheet" href="../style.css">
+    
+    </head>
+    <body>
+
+
+        <h1>Productos Fenix</h1>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../landingPage/index.html">Home</a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="/comercioElectronico/index.html">Tienda
+                                Electronica</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/images/Fenix.pdf">Folleto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./comoComprar.html">Como
+                                Comprar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./marcas.html">Marcas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="./pagosTranseferencias.html">Pagos/Transferencias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contactos.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <hr>
+
+        <!-- Tabla de datos -->
+
+        <div class="container table-responsive">
+            <table class="table table-striped display" id="tabla1">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Productos</th>
+                        <th scope="col">Marcas</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Fecha Llegada</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Zapatilla 1</td>
+                        <td>Adidas</td>
+                        <td>35.000</td>
+                        <td>80</td>
+                        <td>05/06/23</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Zapatilla 2</td>
+                        <td>Nike</td>
+                        <td>45.000</td>
+                        <td>50</td>
+                        <td>07/06/23</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Polera 1</td>
+                        <td>Diadora</td>
+                        <td>60.000</td>
+                        <td>30</td>
+                        <td>15/06/23</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Polera 2</td>
+                        <td>Nike</td>
+                        <td>80.000</td>
+                        <td>50</td>
+                        <td>19/06/23</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Polera 3</td>
+                        <td>Adidas</td>
+                        <td>45.000</td>
+                        <td>95</td>
+                        <td>02/06/23</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>Zapatilla 3</td>
+                        <td>Adidas</td>
+                        <td>85.000</td>
+                        <td>20</td>
+                        <td>28/06/23</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>Zapatilla 4</td>
+                        <td>Puma</td>
+                        <td>55.000</td>
+                        <td>95</td>
+                        <td>17/06/23</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>Zapatilla 5</td>
+                        <td>Diadora</td>
+                        <td>45.000</td>
+                        <td>115</td>
+                        <td>12/06/23</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td>Zapatilla 6</td>
+                        <td>Nike</td>
+                        <td>80.000</td>
+                        <td>40</td>
+                        <td>05/06/23</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10</th>
+                        <td>Polera 4</td>
+                        <td>Adidas</td>
+                        <td>65.000</td>
+                        <td>70</td>
+                        <td>23/06/23</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <table id="myTable" class="display">
+          <thead>
+              <tr>
+                  <th>Column 1</th>
+                  <th>Column 2</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>Row 1 Data 1</td>
+                  <td>Row 1 Data 2</td>
+              </tr>
+              <tr>
+                  <td>Row 2 Data 1</td>
+                  <td>Row 2 Data 2</td>
+              </tr>
+          </tbody>
+      </table>
+
+
+        <!-- footer -->
+
+        <footer>
+            <p> Nuestra ubicación:
+                <a
+                    href="https://www.google.cl/maps/@-32.9553513,-73.6524251,10.52z"><img
+                        class="mapa" src="../images/map.png" alt="ubicacion
+                        Fenix"></a>
+            </p>
+            <p>contactanos: <strong>contactos@fenix.com</strong></p>
+
+            <p>Copyright &copy; 2023 - Desarrollo de Carlos Ferias - Luis Rubio
+                Ramirez - Diego Tapia</p>
+        </footer>
+
+<!--dataTable-->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+       
+        
+
+       
+<!--boostrap-->
+<script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+    <script src="./jquery.js"></script>
+
+
+    </body>
+</html>
